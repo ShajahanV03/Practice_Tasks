@@ -1,0 +1,16 @@
+age = int(input("select your age \n 1.child(below 12 years) \n 2.adult(above 12 years) \n"))
+if(age != 1 and age != 2):
+    print("invalid input")
+else:
+    entry = int(input("select your entry \n 1.group \n 2.individual \n"))
+    if(entry != 1 and entry != 2):
+        print("invalid input")
+    else:
+        if(age == 1) and (entry == 1):
+            print("ticket is free")
+        elif(age == 1) and (entry == 2):
+            print("your ticket is $10")
+        elif(age == 2) and (entry == 1):
+            print("you got 20% discount on $20")
+        elif(age == 2) and (entry == 2):
+            print("your ticket is %20")
