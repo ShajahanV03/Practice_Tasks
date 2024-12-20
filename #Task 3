@@ -1,0 +1,10 @@
+a = (input("enter number a:"))
+b = (input("enter number b:"))
+c = (input("enter number c:"))
+print("---------------------")
+if(a==b==c):
+    print("it's an Equilateral triangle.")
+elif(a!=b!=c):
+    print("it's a Scalene triangle")
+else:
+     print("it's an Isosceles triangle")
