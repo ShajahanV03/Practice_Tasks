@@ -1,0 +1,11 @@
+a=int(input("Enter the Whats app Status:\n 1.online / 2.offline --"))
+if(a == 1):
+    y=int(input("enter the tick status: \n 1.double tick grey 1 / 2.double tick blue --"))
+    if(y == 1):
+     print("ignoring your message.")
+    if(y == 2):
+     print("seen your message.")
+elif(a == 2):
+  print("message sent.waiting for reply")
+else:
+  print("invalid input")
