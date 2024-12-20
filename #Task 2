@@ -1,0 +1,9 @@
+balance = 10000
+x = print("1.enter amount to withdraw --")
+x = int(input())
+available_balance = balance - x
+if(x < balance):
+    print("available balance --" , available_balance)
+    print(x , "rupees withdrawn successfully")
+else:
+    print("insufficient funds")
