@@ -1,0 +1,10 @@
+a = int(input("select loaction \n 1.local\n 2.regional\n 3.national\n 4.international\n"))
+print("---------------------")
+if(a == 1):
+    print("estimated delivery time is 1 day")
+elif(a == 2):
+    print("estimated delivery time is 2 day")
+elif(a == 3):
+        print("estimated delivery time is 4 days")
+else:
+    print("estimated delivery time is 7 days")
